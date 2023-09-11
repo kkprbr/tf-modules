@@ -5,5 +5,4 @@
     subnet1_cidr_prefix = "10.40.1.0/24"
     rgname = "UatRG"
     subnet = "UatSubnet"
-    winmachine = "Uatwin"
  }
