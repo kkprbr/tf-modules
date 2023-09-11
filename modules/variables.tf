@@ -27,3 +27,11 @@ variable "subnet" {
     type = string
     description = "this variable defines subnet name"
 }
+
+variable "vmname" {
+   type = string 
+   description = "This variable defines vm name"
+}
+
+
+
