@@ -14,5 +14,4 @@ module "module_dev" {
     subnet1_cidr_prefix = "10.20.1.0/24"
     rgname = "DevRG"
     subnet = "DevSubnet"
-    winmachine = "Devwin"
 }
