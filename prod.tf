@@ -5,4 +5,5 @@ module "module_prod" {
     subnet1_cidr_prefix = "10.30.1.0/24"
     rgname = "ProdRG"
     subnet = "ProdSubnet"
+    vmname = "Prodwin"
 }
