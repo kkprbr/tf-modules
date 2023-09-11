@@ -75,7 +75,7 @@ resource "azurerm_network_interface" "nic" {
 }
 
 resource "azurerm_windows_virtual_machine" "winmachine" {
-  name = "winmachine"
+  name = "var.vmname"
   resource_group_name   = "${azurerm_resource_group.rg.name}"
   location              = "${azurerm_resource_group.rg.location}"
   size                  = "Standard_B1s"
