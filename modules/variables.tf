@@ -28,10 +28,5 @@ variable "subnet" {
     description = "this variable defines subnet name"
 }
 
-variable "winmachine" {
-   type = string 
-   description = "This variable defines vm name"
-}
-
 
 
